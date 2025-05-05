@@ -35,7 +35,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
-                href="https://wa.me/254123456789"
+                href="https://wa.me/+12145797184"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-green-600"
@@ -110,12 +110,12 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span className="text-sm text-gray-500 dark:text-gray-400">123 Logistics Way, Nairobi, Kenya</span>
+                <span className="text-sm text-gray-500 dark:text-gray-400">641 MAJESTIC OAK LANE, WAXAHACHIE, TEXAS 75165</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-primary" />
-                <Link href="tel:+254123456789" className="text-sm text-gray-500 hover:text-primary dark:text-gray-400">
-                  +254 123 456 789
+                <Link href="tel:+12145797184" className="text-sm text-gray-500 hover:text-primary dark:text-gray-400">
+                +12145797184
                 </Link>
               </li>
               <li className="flex items-center gap-2">

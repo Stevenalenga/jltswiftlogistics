@@ -35,7 +35,7 @@ export default function ContactPage() {
     const whatsappMessage = `*New Contact Form Submission*%0A%0A*Name:* ${formState.name}%0A*Email:* ${formState.email}%0A*Phone:* ${formState.phone}%0A%0A*Message:*%0A${formState.message}`
 
     // Replace with the owner's actual WhatsApp number (with country code, no spaces or special chars)
-    const whatsappNumber = "254123456789" // Example: Kenya country code + number
+    const whatsappNumber = "+12145797184" // Example: Kenya country code + number
 
     // Create WhatsApp URL
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
@@ -127,7 +127,7 @@ export default function ContactPage() {
                         <Input
                           id="phone"
                           name="phone"
-                          placeholder="+254 123 456 789"
+                          placeholder="+12145797184"
                           value={formState.phone}
                           onChange={handleChange}
                         />
@@ -166,9 +166,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">Address</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        123 Logistics Way
+                        641 Majestic Oak Lane
                         <br />
-                        Nairobi, Kenya
+                        WAXAHACHIE TEXAS 75165
                       </p>
                     </div>
                   </div>
@@ -177,9 +177,9 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">Phone</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">
-                        +254 123 456 789
+                        +254 112 950 842
                         <br />
-                        +1 987 654 3210 (US Office)
+                        +121 45 797 184 (US Office)
                       </p>
                     </div>
                   </div>

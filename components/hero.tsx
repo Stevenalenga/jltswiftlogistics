@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="flex items-center justify-center">
             <div className="relative w-full max-w-[500px] aspect-square">
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/packages.jpg?height=600&width=600"
                 alt="Logistics Services"
                 fill
                 className="object-cover rounded-lg"
