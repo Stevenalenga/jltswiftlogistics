@@ -13,7 +13,9 @@ export default function ShopPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/4 lg:w-1/5">
-              <ShopFilters />
+              <Suspense fallback={<FiltersSkeletonFallback />}>
+                <ShopFilters />
+              </Suspense>
             </div>
             <div className="md:w-3/4 lg:w-4/5">
               <Suspense fallback={<ProductGridSkeleton />}>
@@ -23,6 +25,19 @@ export default function ShopPage() {
           </div>
         </div>
       </section>
+    </div>
+  )
+}
+
+function FiltersSkeletonFallback() {
+  return (
+    <div className="space-y-4">
+      <Skeleton className="h-10 w-full" />
+      <div className="space-y-2">
+        <Skeleton className="h-4 w-3/4" />
+        <Skeleton className="h-4 w-1/2" />
+      </div>
+      <Skeleton className="h-40 w-full" />
     </div>
   )
 }
