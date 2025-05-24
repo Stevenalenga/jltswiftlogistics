@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/logo/logo.webp"
               alt="JLT Swift Logistics Logo"
               width={40}
               height={40}
