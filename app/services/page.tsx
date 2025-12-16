@@ -70,7 +70,7 @@ export default function ServicesPage() {
                 <div className="flex items-center justify-center">
                   <div className="relative w-full max-w-[500px] aspect-square">
                     <Image
-                      src="/placeholder.svg?height=600&width=600"
+                      src="/jltswiftimages/airportplane.webp"
                       alt="USA Shopping Service"
                       fill
                       className="object-cover rounded-lg"
@@ -152,7 +152,7 @@ export default function ServicesPage() {
                 <div className="flex items-center justify-center">
                   <div className="relative w-full max-w-[500px] aspect-square">
                     <Image
-                      src="/placeholder.svg?height=600&width=600"
+                      src="/jltswiftimages/package.jpg"
                       alt="Package Consolidation Service"
                       fill
                       className="object-cover rounded-lg"
@@ -239,7 +239,7 @@ export default function ServicesPage() {
                 <div className="flex items-center justify-center">
                   <div className="relative w-full max-w-[500px] aspect-square">
                     <Image
-                      src="/placeholder.svg?height=600&width=600"
+                      src="/jltswiftimages/cargoplane.webp"
                       alt="International Shipping Service"
                       fill
                       className="object-cover rounded-lg"
@@ -326,7 +326,7 @@ export default function ServicesPage() {
                 <div className="flex items-center justify-center">
                   <div className="relative w-full max-w-[500px] aspect-square">
                     <Image
-                      src="/placeholder.svg?height=600&width=600"
+                      src="/jltswiftimages/warehouse.jpg"
                       alt="Express Delivery Service"
                       fill
                       className="object-cover rounded-lg"

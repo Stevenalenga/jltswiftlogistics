@@ -5,22 +5,22 @@ import { Button } from "@/components/ui/button"
 export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-900">
+       <section className="w-full py-12 md:py-24 lg:py-32 bg-background dark:bg-gray-900">
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About JLT Swift Logistics</h1>
-                <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p className="max-w-[600px] text-gray-700 md:text-xl dark:text-gray-300">
                   Your trusted partner for expeditious freight solutions between the USA and Kenya.
                 </p>
               </div>
-              <p className="text-gray-500 dark:text-gray-400">
+               <p className="text-gray-700 dark:text-gray-300">
                 JLT Swift Logistics LLC was founded with a simple mission: to provide reliable, efficient, and
                 affordable shipping solutions for individuals and businesses looking to shop in the USA and ship to
                 Kenya.
               </p>
-              <p className="text-gray-500 dark:text-gray-400">
+             <p className="text-gray-700 dark:text-gray-300">
                 With years of experience in international logistics, our team understands the challenges of cross-border
                 shipping and has developed streamlined processes to ensure your packages arrive safely and on time.
               </p>
@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div className="flex items-center justify-center">
               <div className="relative w-full max-w-[500px] aspect-square">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/jltswiftimages/shipping.jpg"
                   alt="About JLT Swift Logistics"
                   fill
                   className="object-cover rounded-lg"
@@ -81,12 +81,12 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-900">
+     <section className="w-full py-12 md:py-24 lg:py-32 bg-background dark:bg-gray-900">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Why Choose Us</h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+               <p className="max-w-[900px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-300">
                 What sets JLT Swift Logistics apart
               </p>
             </div>
